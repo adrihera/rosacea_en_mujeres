@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&family=Rubik:ital@1&display=swap');
 *{
     margin: 0;
     padding: 0;
@@ -5,7 +6,7 @@
 }
 
 body{
-    font-family: 'open sans';
+    font-family: 'Rubik', sans-serif;
     font-size: 16px;
 }
   /*background de header */
@@ -162,8 +163,8 @@ span {
 }
 /*imagenes de cada card*/
 .cards img {
-    width: 140px;
-    height: 140px;
+    width: 80%;
+    height: auto;
     object-fit: cover;
     border-radius: 100%;
 }
@@ -175,13 +176,12 @@ span {
     transform:scale(1.2);}
 /*estilo background a section fondo*/
 .fondo {
-    height: 900px;
     position: relative;
     background-image: url("./img/084.jpg");
     overflow: hidden;
     background-attachment: fixed;
     background-position: center;
-    padding: 130px;
+    padding: 15%;
     background-repeat: no-repeat;
 }
 /* efecto en section fondo*/
