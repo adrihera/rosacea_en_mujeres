@@ -29,12 +29,13 @@ header .textos{
 }
 header .titulo{
     font-size: 130px;
+    text-shadow: -5px  5px 5px #d18034;
 }
 header .subtitulo{
     font-size: 42px;
     font-weight: 300;
     margin-bottom: 32px;
-    -webkit-text-stroke: 1px gray;
+    text-shadow: -5px  5px 5px #d18034;
 }
 /*efecto de cortado en el div de abajo*/
 .sesgoabajo{
